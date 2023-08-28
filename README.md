@@ -45,7 +45,3 @@ If you find the hat (👑), you win the game! The game will prompt you to play a
 ### Losing
 
 If you fall into a hole or hit a field boundary, the game is over. The game will prompt you to play again.
-
-## Credits
-
-This game was created by [Your Name] as a fun console-based exercise. The game logic and mechanics were developed using JavaScript.
