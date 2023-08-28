@@ -1,4 +1,4 @@
-const create = require('prompt-sync')();
+const prompt = require('prompt-sync')({ sigint: true });
 const clear = require('clear-screen');
 
 const hat = '👑';
@@ -108,7 +108,7 @@ class Player {
 
     playAgain() {
         // Ask if the player wants to play again
-        const input = create('Do you want to play again? (y/n): ');
+        const input = prompt('Do you want to play again? (y/n): ');
         if (input.toLowerCase() === 'y') {
             const rows = this._field.field.length;
             const columns = this._field.field[0].length;
@@ -130,7 +130,7 @@ class Player {
         while (true) {
             clear();
             console.log(this._field.field.map(row => row.join('')).join('\n'));
-            const input = create('Enter your move (w/a/s/d): (w = up, s = down, a = left , d = right) ');
+            const input = prompt('Enter your move (w/a/s/d): (w = up, s = down, a = left , d = right) ');
             
             if (input === 'w') { 
                 this.move(0, -1);

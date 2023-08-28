@@ -1,12 +1,18 @@
 {
-  "name": "find-your-hat",
+  "name": "project",
   "version": "1.0.0",
-  "description": "A terminal maze-solving game.",
+  "description": "Welcome to the Hat Finding Game! In this console-based game, your goal is to find the hat symbol (👑) hidden in a field while avoiding holes (🚽) and staying within the field bounds.",
   "main": "main.js",
-  "author": "Codecademy",
-  "license": "ISC",
   "dependencies": {
+    "ansi-regex": "^4.1.0",
     "clear-screen": "^1.0.0",
-    "prompt-sync": "^4.1.7"
-  }
+    "prompt-sync": "^4.2.0",
+    "strip-ansi": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
