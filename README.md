@@ -5,7 +5,7 @@ Welcome to the Hat Finding Game! In this console-based game, your goal is to fin
 ## Installation
 
 1. Make sure you have Node.js installed on your system.
-2. Clone this repository: `git clone https://github.com/your-username/hat-finding-game.git`
+2. Clone this repository: `git clone https://github.com/siwakorn-nd/hat-finding-game.git`
 3. Navigate to the project folder: `cd hat-finding-game`
 4. Install the required dependencies: `npm install`
 
@@ -17,7 +17,7 @@ Welcome to the Hat Finding Game! In this console-based game, your goal is to fin
    - `w`: Move up
    - `d`: Move right
    - `s`: Move down
-3. Your goal is to find the hat (👑) symbol (`^`) hidden somewhere on the field while avoiding holes (🚽) and staying within the field boundaries.
+3. Your goal is to find the hat (👑) symbol hidden somewhere on the field while avoiding holes (🚽) and staying within the field boundaries.
 4. If you find the hat, you win! If you fall into a hole or hit a border, the game is over.
 
 ## Gameplay Details
